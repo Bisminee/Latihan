@@ -1,6 +1,9 @@
+import java.util.Scanner;
 public class test {
     public static void main(String[] args) {
-        int umur = 19;     
+        Scanner cin = new Scanner(System.in);
+        int umur = cin.nextInt();
+
         System.out.println(umur);
     }
 }
